@@ -68,3 +68,6 @@ Time: 1326.152 ms (00:01.326)
    Timing: Generation 3.701 ms, Inlining 0.000 ms, Optimization 1.064 ms, Emission 48.293 ms, Total 53.058 ms
  Execution Time: 1664.523 ms
 ```
+
+## Выводы  
+- Время сократилось с 2660 ms до 1664 ms 
