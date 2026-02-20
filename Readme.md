@@ -31,7 +31,8 @@ GRANT ALL PRIVILEGES ON ALL TABLES IN SCHEMA public TO store_user;
 (7 rows)
 Time: 2113.326 ms (00:02.113)
 
-#### Вывод с EXPLAIN (ANALYZE) 
+#### Вывод с EXPLAIN (ANALYZE)
+```SQL
 Rows Removed by Filter: 3,249,358
 Planning Time: 0.230 ms
 
@@ -39,3 +40,4 @@ JIT:
   Functions: 54
   Options: Inlining false, Optimization false, Expressions true, Deforming true
   Timing: Generation 2.027 ms, Inlining 0.000 ms, Optimization 1.181 ms, Emission 38.987 ms, Total 42.195 ms
+```
